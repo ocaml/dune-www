@@ -11,7 +11,7 @@ timezone: UTC
 encoding: utf-8
 media_folder: /assets/imgs
 
-logo: "dune_logo.gif"
+logo: "dune_logo.png"
 favicon: "dune_favicon.png"
 github_url: "https://github.com/ocaml/dune"
 
