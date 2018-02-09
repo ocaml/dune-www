@@ -1,7 +1,7 @@
 header {
   text-align: center;
   padding-top: 50px;
-  background-color: $white;
+  background-color: $header-bg;
 
   .wrapper {
     position: relative;
@@ -34,10 +34,11 @@ header {
   }
 
   nav {
-    border-top: 1px solid $theme-color;
-    border-bottom: 5px solid $theme-color;
+    border-top: 1px solid $nav-border-top;
+    border-bottom: 5px solid $nav-border-bottom;
     margin-top: 50px;
     padding: 8px 0;
+    background-color: $white;
     ul {
       padding: 10px 0;
       li {

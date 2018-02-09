@@ -51,18 +51,9 @@ end
 # Featured Users
 ### Section description
 <div class="text-container">
-Donec eget orci vitae metus egestas laoreet id in ipsum. Sed egestas
-tempus massa, vitae placerat ex. Nulla malesuada, lacus nec ornare
-dictum, tellus leo imperdiet est, a ultrices lorem lacus in nisl.
-Aliquam sit amet convallis orci. Curabitur ultrices magna eu rhoncus
-pretium. Sed vulputate purus pretium nisl mattis, in vehicula turpis
-ultricies. Aenean suscipit eros quis est euismod, molestie tincidunt
-metus sollicitudin. Curabitur consequat euismod lectus in hendrerit
-. Curabitur ac aliquam neque, eu lobortis felis. Nullam cursus urna
-in turpis dignissim tempor. Mauris aliquam, arcu ac efficitur sodales,
-odio elit bibendum nisl, ut volutpat dolor augue eu risus. Suspendisse
-blandit ac eros eget sagittis. Aliquam eleifend lectus nibh, ac
-pellentesque ipsum egestas tempus.
+Dune does amazing things that will change your life. You will
+wonder what you did without it and thank the OCaml wizard every
+day.
 </div>
 </div>
 
@@ -72,24 +63,21 @@ pellentesque ipsum egestas tempus.
 <div class="flex-grid">
 
 <div class="text-container">
-Donec eget orci vitae metus egestas laoreet id in ipsum. Sed egestas
-tempus massa, vitae placerat ex. Nulla malesuada, lacus nec ornare
-dictum, tellus leo imperdiet est, a ultrices lorem lacus in nisl.
-Aliquam sit amet convallis orci.
+Dune does amazing things that will change your life. You will
+wonder what you did without it and thank the OCaml wizard every
+day.
 </div>
 
 <div class="text-container">
-Donec eget orci vitae metus egestas laoreet id in ipsum. Sed egestas
-tempus massa, vitae placerat ex. Nulla malesuada, lacus nec ornare
-dictum, tellus leo imperdiet est, a ultrices lorem lacus in nisl.
-Aliquam sit amet convallis orci.  Donec eget orci vitae metus egestas
-laoreet id in ipsum. Sed egestas.
+Dune does amazing things that will change your life. You will
+wonder what you did without it and thank the OCaml wizard every
+day.
 </div>
 
 <div class="text-container">
-Donec eget orci vitae metus egestas laoreet id in ipsum. Sed egestas
-tempus massa, vitae placerat ex. Nulla malesuada, lacus nec ornare
-dictum, tellus leo imperdiet est.
+Dune does amazing things that will change your life. You will
+wonder what you did without it and thank the OCaml wizard every
+day.
 </div>
 </div>
 </div>

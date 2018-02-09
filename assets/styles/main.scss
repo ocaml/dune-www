@@ -3,7 +3,11 @@
 ---
 /** Change below to each code library's theme colors **/
 $theme-color: #884010;
-$theme-accent-color: #ffad1d;
+$header-bg: #FFFFFF;
+$button-border: #ffad1d;
+$footer-bg: #884040;
+$nav-border-top: #884040;
+$nav-border-bottom: #884040;
 
 @import "settings";
 @import "header";
