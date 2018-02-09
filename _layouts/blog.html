@@ -1,0 +1,18 @@
+---
+layout: base
+---
+<article class="blog-post">
+  <div class="post-header">
+    <div class="post-title"><h3>{{ page.title }}</h3></div>
+    <span class="date">{{ page.date | date: '%b %d, %Y' }}</span>
+    {% if page.author %}{% assign the_author = site.data.authors | where: 'id', page.author %}
+      {% for author in the_author %}| <span class="author">By: {{ author.name }}</span>{% endfor %}
+    {% endif %}
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  {% if page.tags.size > 0 %}
+    <p>Tag{% if page.tags.size > 1 %}s{% endif %}: {{ page.tags | sort | join: ", " }}</p>
+  {% endif %}
+</article>

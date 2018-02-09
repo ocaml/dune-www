@@ -1,1 +1,57 @@
-theme: jekyll-theme-slate
+name: Dune
+description: A composable build system for OCaml
+url: https://dune.build
+baseurl: /
+permalink: /blog/:title/
+
+host: igm-qws-u12712a
+port: 2020
+
+timezone: UTC
+encoding: utf-8
+media_folder: /assets/imgs
+
+logo: "dune_logo.gif"
+favicon: "dune_favicon.png"
+github_url: "https://github.com/ocaml/dune"
+
+plugins:
+  - jekyll-postfiles
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
+      permalink: "/:title"
+
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  docs:
+    output: true
+    category: "docs"
+    permalink: /:collection/:title
+
+sass:
+  sass_dir: _sass
+  style: compress
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock

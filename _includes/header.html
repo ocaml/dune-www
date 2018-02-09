@@ -1,0 +1,16 @@
+{% capture github_url %}{{ site.github_url }}{% endcapture %}
+{% capture logo %}{{ site.logo }}{% endcapture %}
+{% capture try_text %}Try {{ site.name }}{% endcapture %}
+{% capture install_text %}Install {{ site.name }}{% endcapture %}
+<header id="header">
+  <div class="wrapper">
+    <div class="links-container">
+      {% include button.html url="/try" text=try_text %}
+      {% include button.html url="/install" text=install_text %}
+      {% include image.html cname="github-logo" url=github_url src="github_logo_dark.png" %}
+    </div>
+    {% include image.html cname="logo" src=logo url="/" %}
+    <p class="tagline">{{ site.description }}</p>
+  </div>
+  {% include nav.html %}
+</header>

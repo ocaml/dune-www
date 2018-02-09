@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="flex-grid">
+      <div class="col">
+        <h3>Contribute</h3>
+        <p>Help shape the future of {{ site.name }} by joining our community today
+          and send us pull requests via our GitHub repository!</p>
+      </div>
+      <div class="col">
+        <h3>Learn</h3>
+        <ul>
+          {% for item in site.data.footer %}
+            <li>
+              <a href="{{ item.url }}" {% if item.url contains "://"%}target="_blank"{% endif %}>{{ item.title }}</a>
+              {% if item.desc %} - {{ item.desc }}{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-logos">
+      {% include image.html src="JS_logo.png" url="https://www.janestreet.com" %}
+      {% include image.html src="OCaml_logo.png" url="https://ocaml.org" %}
+    </div>
+  </div>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+</footer>

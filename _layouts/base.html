@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="page-wrap {{ page.layout | downcase | replace: ' ', '-' }}">
+      {% include header.html %}
+      <main>
+        {% if page.layout == 'docs' %}{% include toc.html %}{% endif %}
+        <div class="main-container">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+      </main>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

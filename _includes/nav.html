@@ -1,0 +1,12 @@
+<nav>
+  <div class="wrapper">
+    <ul>
+      {% for item in site.data.nav %}
+        {% assign title = item.title | downcase %}
+        <li {% if page.title == item.title or page.layout == title %}class="active"{% endif %}>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

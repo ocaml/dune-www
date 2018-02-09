@@ -1,0 +1,75 @@
+header {
+  text-align: center;
+  padding-top: 50px;
+  background-color: $white;
+
+  .wrapper {
+    position: relative;
+  }
+
+  .logo {
+    max-width: 300px;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .github-logo {
+    max-width: 38px;
+    position: relative;
+    bottom: -15px;
+  }
+
+  .links-container {
+    position: absolute;
+    right: 20px;
+    top: -6px;
+  }
+
+  .tagline {
+    font-family: $light-font;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 14px;
+    color: $black;
+  }
+
+  nav {
+    border-top: 1px solid $theme-color;
+    border-bottom: 5px solid $theme-color;
+    margin-top: 50px;
+    padding: 8px 0;
+    ul {
+      padding: 10px 0;
+      li {
+        list-style: none;
+        display: inline-block;
+        &.active a {
+          border-bottom: 3px solid $theme-color;
+        }
+        a {
+          padding-bottom: 6px;
+          margin: 0 20px;
+          font-size: 20px;
+          text-transform: uppercase;
+          color: $black;
+          font-family: $med-font;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $md-device) {
+  header {
+    .links-container {
+      top: -40px;
+    }
+  }
+}
+
+@media screen and (max-width: $sm-device) {
+  header nav ul li a {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+}

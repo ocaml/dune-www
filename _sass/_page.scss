@@ -1,0 +1,23 @@
+main {
+  .page-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    small {
+      font-size: 17px;
+    }
+  }
+  p {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  }
+  .flex-grid .col pre {
+    width: auto;
+  }
+}

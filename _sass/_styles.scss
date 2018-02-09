@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: $main-font;
+  font-size: 100%;
+  color: $dark-gray;
+  text-rendering: optimizeLegibility;
+  background-color: $bg-gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.page-wrap {
+  flex: 1 0 auto;
+}
+
+.wrapper {
+  margin: 0px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.main-container {
+  margin: 60px 0;
+}
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.flex-grid > * {
+  margin: 10px;
+  flex: 1 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-gray;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 6px;
+}
+
+main ul {
+  margin-left: 20px;
+}
+
+.code-container {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+
+pre {
+  font-family: $code-font;
+  white-space: pre;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  background: $white;
+  padding: 30px;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section {
+  margin: 50px 0;
+  h1, h3 {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 7px 12px 6px 12px;
+  text-transform: uppercase;
+  border: 3px solid $theme-accent-color;
+  color: $black;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+@media screen and (max-width: $sm-device) {
+  .flex-grid {
+    display: block !important;
+  }
+  .flex-grid > * {
+    margin: 10px 0;
+  }
+}

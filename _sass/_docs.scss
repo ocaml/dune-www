@@ -1,0 +1,83 @@
+.page-wrap.docs {
+  main {
+    display: flex;
+  }
+  .toc-wrapper {
+    margin: 50px 30px 30px 4%;
+    width: 275px;
+    .toc {
+      background: $white;
+      padding: 20px;
+      #nav-wrapper {
+        position: relative;
+        #hamburger {
+          cursor: pointer;
+          height: 50px;
+          padding: 15px 20px;
+          margin-bottom: 0;
+          #hamburg-icon {
+            display: none;
+            margin-right: 10px;
+          }
+        }
+        #nav-items {
+          padding: 0 30px;
+        }
+      }
+      ul li a {
+        line-height: 1.5em;
+        &.active {
+          font-weight: bold;
+          color: $theme-color;
+        }
+      }
+    }
+  }
+
+  .main-container {
+    max-width: 63%;
+    flex: 1;
+  }
+
+  @media screen and (max-width: $sm-device) {
+    // Mobile menu
+    .toc-wrapper {
+      background: $white;
+      height: 40px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 100;
+      margin: 0;
+      .toc {
+        padding: 0;
+        border-bottom: 1px solid $theme-color;
+        #nav-wrapper {
+          #hamburger #hamburg-icon {
+            display: inline-block;
+          }
+          #nav-items {
+            display: none;
+          }
+        }
+      }
+    }
+    .main-container {
+      max-width: 100%;
+      margin-top: 80px;
+    }
+
+    // Open mobile menu
+    &.open .toc-wrapper {
+      box-sizing: border-box;
+      height: auto;
+      overflow-y: auto;
+      transition: .3s ease all;
+      .toc #nav-wrapper #nav-items {
+        display: block;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

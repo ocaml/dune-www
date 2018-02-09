@@ -1,0 +1,10 @@
+# Main nav links
+- title: Docs & Quick Starts
+  desc: To help you get started
+  url: /docs
+- title: Github & Stack Overflow
+  desc: File and discuss issues
+  url: https://github.com/ocaml/dune
+- title: Blog & Twitter
+  desc: Stay up to date
+  url: /blog

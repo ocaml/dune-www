@@ -1,0 +1,16 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+---
+/** Change below to each code library's theme colors **/
+$theme-color: #884010;
+$theme-accent-color: #ffad1d;
+
+@import "settings";
+@import "header";
+@import "footer";
+@import "page";
+@import "blog";
+@import "syntax";
+@import "docs";
+
+@import "styles";

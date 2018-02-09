@@ -1,0 +1,21 @@
+---
+title: Blog
+tagline: Read the latest updates!
+---
+<div class="blog">
+  {% for post in site.posts %}
+    <a class="article-index" href="{{ post.url }}">
+      <article>
+        <div class="post-header">
+          <span class="date">{{ post.date | date: '%b %d, %Y' }} </span>
+          {% if post.author %}
+            {% assign the_author = site.data.authors | where: 'id', post.author %}
+            {% for author in the_author %}| <span class="author">By: {{ author.name }}</span>{% endfor %}
+          {% endif %}
+          <h1>{{ post.title }}</h1>
+        </div>
+        <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 25 }}</p>
+      </article>
+    </a>
+  {% endfor %}
+</div>

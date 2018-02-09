@@ -1,0 +1,26 @@
+.blog,
+article.blog-post {
+  .post-header {
+    h1 {
+      margin-top: 6px;
+    }
+    h3 {
+      font-size: 40px;
+    }
+    margin-bottom: 10px;
+  }
+
+  .post-content {
+    margin-bottom: 40px;
+  }
+}
+
+// Blog index page
+.blog .article-index article {
+  margin-bottom: 40px;
+}
+
+// Individual blog post
+article.blog-post {
+  margin: 40px 0;
+}
