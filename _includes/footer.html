@@ -10,10 +10,7 @@
         <h3>Learn</h3>
         <ul>
           {% for item in site.data.footer %}
-            <li>
-              <a href="{{ item.url }}" {% if item.url contains "://"%}target="_blank"{% endif %}>{{ item.title }}</a>
-              {% if item.desc %} - {{ item.desc }}{% endif %}
-            </li>
+            <li><a href="{{ item.url }}"{% if item.url contains "://"%} target="_blank"{% endif %}>{{ item.title }}</a>{% if item.desc %} - {{ item.desc }}{% endif %}</li>
           {% endfor %}
         </ul>
       </div>
