@@ -8,7 +8,7 @@ header .logo { max-width: 300px; margin-top: 50px; width: 100%; }
 header .github-logo { max-width: 38px; position: relative; bottom: -15px; }
 header .links-container { position: absolute; right: 20px; top: -6px; }
 header .tagline { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; margin-top: 15px; font-style: italic; font-size: 14px; color: #000000; }
-header nav { border-top: 1px solid #884040; border-bottom: 5px solid #884040; margin-top: 50px; padding: 8px 0; background-color: #ffffff; }
+header nav { border-top: 1px solid #884040; border-bottom: 5px solid #884010; margin-top: 50px; padding: 8px 0; background-color: #ffffff; }
 header nav ul { padding: 10px 0; }
 header nav ul li { list-style: none; display: inline-block; }
 header nav ul li.active a { border-bottom: 3px solid #884010; }
