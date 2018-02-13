@@ -39,7 +39,7 @@ main .main-container p { line-height: 1.5em; margin-bottom: 15px; }
 main .main-container .flex-grid .col pre, main .main-container .flex-grid .col .highlight .hll, .highlight main .main-container .flex-grid .col .hll { width: auto; }
 
 .blog .post-header, article.blog-post .post-header { margin-bottom: 10px; }
-.blog .post-header h1, article.blog-post .post-header h1 { margin-top: 6px; }
+.blog .post-header h1, article.blog-post .post-header h1 { margin-top: 6px; font-size: 20px; }
 .blog .post-header h3, article.blog-post .post-header h3 { font-size: 40px; }
 .blog .post-content, article.blog-post .post-content { margin-bottom: 40px; }
 
@@ -158,4 +158,4 @@ pre, .highlight pre, .highlight .hll { font-family: "Source Code Pro", Courier N
 
 @media screen and (max-width: 768px) { .flex-grid { display: block !important; }
   .flex-grid > * { margin: 10px 0; }
-  h1, .section h1, main .main-container .page-header h1 { font-size: 30px; } }
+  article.blog-post .post-header h3, .section h1, main .main-container .page-header h1 { font-size: 30px; } }
