@@ -31,11 +31,12 @@ header nav ul li a { padding-bottom: 6px; margin: 0 20px; font-size: 20px; text-
   .site-footer .col { margin-left: 0; margin-right: 0; }
   .site-footer .col h3 { font-size: 24px; }
   .site-footer .col a, .site-footer .col p { font-size: 17px; } }
-main .page-header { text-align: center; max-width: 600px; margin: 40px auto; }
-main .page-header h1 { font-size: 48px; font-weight: bold; }
-main .page-header small { font-size: 17px; }
-main p { line-height: 1.5em; margin-bottom: 15px; }
-main .flex-grid .col pre, main .flex-grid .col .highlight .hll, .highlight main .flex-grid .col .hll { width: auto; }
+main .main-container { min-height: 250px; }
+main .main-container .page-header { text-align: center; max-width: 600px; margin: 40px auto; }
+main .main-container .page-header h1 { font-size: 48px; font-weight: bold; }
+main .main-container .page-header small { font-size: 17px; }
+main .main-container p { line-height: 1.5em; margin-bottom: 15px; }
+main .main-container .flex-grid .col pre, main .main-container .flex-grid .col .highlight .hll, .highlight main .main-container .flex-grid .col .hll { width: auto; }
 
 .blog .post-header, article.blog-post .post-header { margin-bottom: 10px; }
 .blog .post-header h1, article.blog-post .post-header h1 { margin-top: 6px; }
@@ -156,4 +157,5 @@ pre, .highlight pre, .highlight .hll { font-family: "Source Code Pro", Courier N
 .button { display: inline-block; padding: 7px 12px 6px 12px; text-transform: uppercase; border: 3px solid #ffad1d; background: #FFFFFF; color: #000000; font-size: 14px; font-weight: bold; margin: 0 2px; }
 
 @media screen and (max-width: 768px) { .flex-grid { display: block !important; }
-  .flex-grid > * { margin: 10px 0; } }
+  .flex-grid > * { margin: 10px 0; }
+  h1, .section h1, main .main-container .page-header h1 { font-size: 30px; } }
