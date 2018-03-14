@@ -4,18 +4,20 @@
 /** Media query breakpoints **/
 header { text-align: center; padding-top: 50px; background-color: #FFFFFF; }
 header .wrapper { position: relative; }
-header .logo { max-width: 300px; margin-top: 50px; width: 100%; }
+header .header-logo { position: relative; margin-top: 20px; }
+header .header-logo .logo { max-width: 400px; width: 100%; height: 100px; background-repeat: no-repeat; background-size: 100% 100%; margin: 0 auto; background-image: url(/assets/imgs/dune_logo.png); }
 header .github-logo { max-width: 38px; position: relative; bottom: -15px; }
-header .links-container { position: absolute; right: 20px; top: -6px; }
-header .tagline { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; margin-top: 15px; font-style: italic; font-size: 14px; color: #000000; }
+header .links-container { position: absolute; right: 20px; top: -70px; }
+header .tagline { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; margin-top: 10px; font-style: italic; font-size: 14px; color: #000000; }
 header nav { border-top: 1px solid #884040; border-bottom: 5px solid #884010; margin-top: 50px; padding: 8px 0; background-color: #ffffff; }
 header nav ul { padding: 10px 0; }
 header nav ul li { list-style: none; display: inline-block; }
 header nav ul li.active a { border-bottom: 3px solid #884010; }
 header nav ul li a { padding-bottom: 6px; margin: 0 20px; font-size: 20px; text-transform: uppercase; color: #000000; font-family: "Alright Sans LTV Medium", "Aliright Sans Medium", Helvetica, Arial, sans-serif; }
 
-@media screen and (max-width: 992px) { header .links-container { top: -40px; } }
-@media screen and (max-width: 768px) { header nav ul li a { margin: 0 8px; font-size: 14px; } }
+@media screen and (max-width: 768px) { header nav ul li a { margin: 0 8px; font-size: 14px; }
+  header .header-logo .logo { background-image: url(/assets/imgs/dune_mobile_logo.png); height: 240px; width: 200px; }
+  header .tagline { position: absolute; right: 0; left: 0; bottom: 0; } }
 .site-footer { background-color: #884040; padding: 20px 0; color: #ffffff; z-index: 100; }
 .site-footer .col h3 { font-family: "Alright Sans LTV Medium", "Aliright Sans Medium", Helvetica, Arial, sans-serif; font-size: 32px; color: #ffffff; }
 .site-footer .col a { color: #ffffff; font-weight: bold; }
@@ -126,9 +128,7 @@ body { display: flex; flex-direction: column; scroll-behavior: smooth; }
 
 .page-wrap { flex: 1 0 auto; }
 
-.wrapper { margin: 0px auto; max-width: 1000px; padding: 0 20px; }
-
-.main-container { margin: 60px 0; }
+.wrapper { margin: 0px auto; max-width: 900px; padding: 0 20px; }
 
 .flex-grid { display: flex; justify-content: space-between; align-items: stretch; }
 
@@ -152,7 +152,7 @@ pre, .highlight pre, .highlight .hll { font-family: "Source Code Pro", Courier N
 .section { margin: 50px 0; }
 .section h1, .section h3 { text-align: center; }
 .section h1 { font-size: 48px; }
-.section h3 { font-size: 17px; font-weight: normal; margin-bottom: 40px; }
+.section h3 { font-size: 17px; font-weight: normal; margin-bottom: 20px; }
 
 .button { display: inline-block; padding: 7px 12px 6px 12px; text-transform: uppercase; border: 3px solid #ffad1d; background: #FFFFFF; color: #000000; font-size: 14px; font-weight: bold; margin: 0 2px; }
 

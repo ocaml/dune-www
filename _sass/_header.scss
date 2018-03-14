@@ -6,11 +6,18 @@ header {
   .wrapper {
     position: relative;
   }
-
-  .logo {
-    max-width: 300px;
-    margin-top: 50px;
-    width: 100%;
+  .header-logo {
+    position: relative;
+    margin-top: 20px;
+    .logo {
+      max-width: 400px;
+      width: 100%;
+      height: 100px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: 0 auto;
+      background-image:  url(/assets/imgs/dune_logo.png);
+    }
   }
 
   .github-logo {
@@ -22,12 +29,12 @@ header {
   .links-container {
     position: absolute;
     right: 20px;
-    top: -6px;
+    top: -70px;
   }
 
   .tagline {
     font-family: $light-font;
-    margin-top: 15px;
+    margin-top: 10px;
     font-style: italic;
     font-size: 14px;
     color: $black;
@@ -60,17 +67,20 @@ header {
   }
 }
 
-@media screen and (max-width: $md-device) {
-  header {
-    .links-container {
-      top: -40px;
-    }
-  }
-}
-
 @media screen and (max-width: $sm-device) {
   header nav ul li a {
     margin: 0 8px;
     font-size: 14px;
+  }
+  header .header-logo .logo {
+    background-image:  url(/assets/imgs/dune_mobile_logo.png);
+    height: 240px;
+    width: 200px;
+  }
+  header .tagline {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
 }

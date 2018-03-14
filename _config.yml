@@ -14,6 +14,7 @@ media_folder: /assets/imgs
 logo: "dune_logo.png"
 favicon: "dune_favicon.png"
 github_url: "https://github.com/ocaml/dune"
+github_logo: "github_logo_dark.png"
 
 defaults:
   - scope:
