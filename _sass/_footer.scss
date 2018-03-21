@@ -28,13 +28,12 @@
   }
 
   .footer-logos {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 20px;
-    flex-wrap: wrap;
+    text-align: center;
     img {
       margin: 15px;
       max-width: 130px;
+      height: 29px;
       &:nth-child(2) {
         margin-right: 0;
       }

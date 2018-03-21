@@ -5,10 +5,15 @@
 header { text-align: center; padding-top: 50px; background-color: #FFFFFF; }
 header .wrapper { position: relative; }
 header .header-logo { position: relative; margin-top: 20px; }
-header .header-logo .logo { max-width: 400px; width: 100%; height: 100px; background-repeat: no-repeat; background-size: 100% 100%; margin: 0 auto; background-image: url(/assets/imgs/dune_logo.png); }
+header .header-logo .logo { max-width: 380px; width: 100%; height: 100px; background-repeat: no-repeat; background-size: 100% 100%; margin: 0 auto; background-image: url(/assets/imgs/dune_logo.png); }
+header .open-source-link { position: absolute; top: -70px; cursor: pointer; }
+header .open-source-link .text { position: absolute; top: 20px; font-size: 14px; transition: .5s all ease; opacity: 0; width: 200px; }
+header .open-source-link:hover .text { opacity: 1; -webkit-transform: translate(20px, 0); transform: translate(20px, 0); }
+header .open-source-link img { width: 50px; height: 50px; z-index: 99; }
 header .github-logo { max-width: 38px; position: relative; bottom: -15px; }
 header .links-container { position: absolute; right: 20px; top: -70px; }
-header .tagline { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; margin-top: 10px; font-style: italic; font-size: 14px; color: #000000; }
+header .links-container a { margin: 0 2px; }
+header .tagline { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; margin-top: 20px; font-style: italic; font-size: 14px; color: #000000; }
 header nav { border-top: 1px solid #884040; border-bottom: 5px solid #884010; margin-top: 50px; padding: 8px 0; background-color: #ffffff; }
 header nav ul { padding: 10px 0; }
 header nav ul li { list-style: none; display: inline-block; }
@@ -17,16 +22,17 @@ header nav ul li a { padding-bottom: 6px; margin: 0 20px; font-size: 20px; text-
 
 @media screen and (max-width: 768px) { header nav ul li a { margin: 0 8px; font-size: 14px; }
   header .header-logo .logo { background-image: url(/assets/imgs/dune_mobile_logo.png); height: 240px; width: 200px; }
-  header .tagline { position: absolute; right: 0; left: 0; bottom: 0; } }
-.site-footer { background-color: #884040; padding: 20px 0; color: #ffffff; z-index: 100; }
+  header .tagline { position: absolute; right: 0; left: 0; bottom: 0; }
+  header .links-container span { display: none; } }
+.site-footer { background-color: #884010; padding: 20px 0; color: #ffffff; z-index: 100; }
 .site-footer .col h3 { font-family: "Alright Sans LTV Medium", "Aliright Sans Medium", Helvetica, Arial, sans-serif; font-size: 32px; color: #ffffff; }
 .site-footer .col a { color: #ffffff; font-weight: bold; }
 .site-footer .col p { font-family: "Alright Sans LTV Light", "Alright Sans Light", Helvetica, Arial, sans-serif; }
 .site-footer .col a, .site-footer .col p { font-size: 19px; }
 .site-footer .col ul { margin: 0; }
 .site-footer .col ul li { list-style: none; }
-.site-footer .footer-logos { display: flex; justify-content: flex-end; margin-top: 20px; flex-wrap: wrap; }
-.site-footer .footer-logos img { margin: 15px; max-width: 130px; }
+.site-footer .footer-logos { margin-top: 20px; text-align: center; }
+.site-footer .footer-logos img { margin: 15px; max-width: 130px; height: 29px; }
 .site-footer .footer-logos img:nth-child(2) { margin-right: 0; }
 
 @media screen and (max-width: 768px) { .site-footer .footer-logos img:first-child { margin-left: 0; }
@@ -154,7 +160,7 @@ pre, .highlight pre, .highlight .hll { font-family: "Source Code Pro", Courier N
 .section h1 { font-size: 48px; }
 .section h3 { font-size: 17px; font-weight: normal; margin-bottom: 20px; }
 
-.button { display: inline-block; padding: 7px 12px 6px 12px; text-transform: uppercase; border: 3px solid #ffad1d; background: #FFFFFF; color: #000000; font-size: 14px; font-weight: bold; margin: 0 2px; }
+.button { display: inline-block; padding: 7px 12px 6px 12px; text-transform: uppercase; border: 2px solid #ffad1d; background: #FFFFFF; color: #000000; font-size: 14px; font-weight: bold; margin: 0 2px; }
 
 @media screen and (max-width: 768px) { .flex-grid { display: block !important; }
   .flex-grid > * { margin: 10px 0; }

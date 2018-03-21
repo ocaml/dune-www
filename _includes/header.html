@@ -1,13 +1,12 @@
 {% capture github_url %}{{ site.github_url }}{% endcapture %}
 {% capture logo %}{{ site.logo }}{% endcapture %}
-{% capture try_text %}Try {{ site.name }}{% endcapture %}
-{% capture install_text %}Install {{ site.name }}{% endcapture %}
+{% capture github_text %}Find <span>{{ site.name }}</span> on Github{% endcapture %}
 {% capture github_logo %}{{ site.github_logo }}{% endcapture %}
 <header id="header">
   <div class="wrapper">
+    {% include open-source-link.html %}
     <div class="links-container">
-      {% include button.html url="/try" text=try_text %}
-      {% include button.html url="/install" text=install_text %}
+      {% include button.html url=github_url text=github_text %}
       {% include image.html cname="github-logo" url=github_url src=github_logo %}
     </div>
     <div class="header-logo"><a href="/"><div class="logo"></div></a></div>
