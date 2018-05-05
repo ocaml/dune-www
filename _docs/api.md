@@ -8,5 +8,5 @@ layout: docs
 Docs on API
 
 ``` bash
-$ opam install jbuilder
+$ opam install dune
 ```

@@ -7,5 +7,5 @@ layout: docs
 Here's some stuff on Dune.
 
 ``` bash
-$ opam install jbuilder
+$ opam install dune
 ```
