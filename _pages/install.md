@@ -4,10 +4,10 @@ title: Install Dune
 
 # Quickstart
 
-The recommended way to install jbuilder is via the [opam package manager](https://opam.ocaml.org/):
+The recommended way to install dune is via the [opam package manager](https://opam.ocaml.org/):
 
 ```bash
-$ opam install jbuilder
+$ opam install dune
 ```
 
 You can also build it manually with:

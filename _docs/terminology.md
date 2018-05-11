@@ -8,5 +8,5 @@ Learn all the terminology here
 
 
 ``` bash
-$ opam install jbuilder
+$ opam install dune
 ```
