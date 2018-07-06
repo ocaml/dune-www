@@ -2,6 +2,6 @@
 - title: Documentation
   desc: Get started & learn more
   url: https://dune.readthedocs.io
-- title: Github & Stack Overflow
-  desc: File and discuss issues
+- title: Github
+  desc: Browse source, file and discuss issues
   url: https://github.com/ocaml/dune
