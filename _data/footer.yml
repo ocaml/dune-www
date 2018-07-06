@@ -1,7 +1,7 @@
 # Main nav links
-- title: Docs & Quick Starts
-  desc: To help you get started
-  url: /docs/quickstart
+- title: Documentation
+  desc: Get started & learn more
+  url: https://dune.readthedocs.io
 - title: Github & Stack Overflow
   desc: File and discuss issues
   url: https://github.com/ocaml/dune

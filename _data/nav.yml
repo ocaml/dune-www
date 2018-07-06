@@ -1,8 +1,8 @@
 # Main nav links
 - title: Examples
   url: /examples
-- title: Docs
-  url: /docs/quickstart
+- title: Documentation
+  url: https://dune.readthedocs.io
 - title: Community
   url: /community
 - title: Blog
