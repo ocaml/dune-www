@@ -40,8 +40,15 @@ body {
   flex: 1 100%;
 }
 
-a {
+header a {
   text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+a {
   color: $dark-gray;
 }
 
