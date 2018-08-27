@@ -2,8 +2,6 @@
 layout: base
 ---
 <div class="section">
-# Features
-### Section description
 
 Dune is a build system for OCaml projects.
 Using it, you can build executables, libraries, run tests, and much more.
@@ -43,41 +41,6 @@ $ dune build hello_world.exe
 $ ./_build/default/hello_world.exe
 Hello, world!
 ```
-</div>
-</div>
-</div>
-
-<div class="section">
-# Featured Users
-### Section description
-<div class="text-container">
-Dune does amazing things that will change your life. You will
-wonder what you did without it and thank the OCaml wizard every
-day.
-</div>
-</div>
-
-<div class="section">
-# Requirements
-### Section description
-<div class="flex-grid">
-
-<div class="text-container">
-Dune does amazing things that will change your life. You will
-wonder what you did without it and thank the OCaml wizard every
-day.
-</div>
-
-<div class="text-container">
-Dune does amazing things that will change your life. You will
-wonder what you did without it and thank the OCaml wizard every
-day.
-</div>
-
-<div class="text-container">
-Dune does amazing things that will change your life. You will
-wonder what you did without it and thank the OCaml wizard every
-day.
 </div>
 </div>
 </div>
