@@ -19,7 +19,7 @@ builds are way faster than traditional build systems.
 
 #### Dune is widely used
 Dune is used in both large projects and small libraries.
-About 30% of OPAM packages are built using Dune.
+About 40% of OPAM packages are built using Dune.
 </div>
 
 <div class="col code-container">
