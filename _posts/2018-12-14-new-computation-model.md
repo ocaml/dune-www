@@ -82,7 +82,7 @@ share results at any points chosen by the developer.
 
 It took some time to polish this model, develop it and and merge it
 into Dune. To validate our ideas, we discussed them with Andrey
-Mokhow, one of the author of the famous [Build system a la carte
+Mokhow, one of the authors of the famous [Build system a la carte
 paper](bs-a-la-carte). The initial implementation was written by Rudi
 Horn and it is now fully merged into Dune.
 
@@ -98,9 +98,9 @@ a pure function in the mathemical sense. This is why it is safe to not
 re-execute a command when none of its dependencies has changed.
 
 The new computation model simply generalizes this idea to all
-computations, not just exernal commands. At the core of Dune, we now
+computations, not just external commands. At the core of Dune, we now
 have a system that is able to memoize any OCaml functions, running an
-exernal command being just one way to perform a computation. The
+external command being just one way to perform a computation. The
 result of memoized functions can be reused immediately during a single
 build, and can also be reused between different builds as long as it
 is safe to do so, i.e. when none of the dependencies of the function
@@ -145,11 +145,11 @@ the previous observations are still valid, and if yes it will reuse
 the previous result rather than execute the function again.
 
 This gives a very powerful and easy to use tool to build system
-developpers to share computations in a single build or between builds.
+developers to share computations in a single build or between builds.
 
 There are many ways to implement Dune's job on top of this
 abstraction. We were recently brainstorming about this with other Dune
-developpers and we have many ideas on how to proceed. I feel like just
+developers and we have many ideas on how to proceed. I feel like just
 as video game developers who need time to understand and fully exploit
 the power of new video game systems, it will take us some time to
 truly understand all the power of this new system and get the most
