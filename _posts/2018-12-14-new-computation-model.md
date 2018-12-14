@@ -56,7 +56,7 @@ should be good at, it is avoiding recomputing the same thing over and
 over. So why can't we do the same for the generation of the build
 script? We could indeed go through an external command to generate the
 build script, and this computation would effecitvely be cached by the
-system. However, this is an absolutely terribe programming model. This
+system. However, this is an absolutely terrible programming model. This
 brings us to the new computation model we just merged in Dune, which
 will allow to cache any kind of computations, not just the ones
 performed by external commands.
