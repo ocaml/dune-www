@@ -4,6 +4,7 @@ title: A new general computation model for Dune
 author: dimenix
 tags: [ocaml, dune]
 picture: /assets/imgs/dune-lambdas.png
+discuss: https://discuss.ocaml.org/t/blog-post-a-new-general-computation-model-for-dune/3061
 ---
 
 Dune is fast. However, if you try to use Dune to develop in a big
