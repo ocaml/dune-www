@@ -3,9 +3,8 @@ layout: blog
 title: A new general computation model for Dune
 author: diml
 tags: [ocaml, dune]
+picture: /assets/imgs/dune-lambdas.png
 ---
-
-![A new general computation model for Dune](/assets/dune-lambdas-small.png){:align="middle"}
 
 Dune is fast. However, if you try to use Dune to develop in a big
 workspace such as the [OCaml platform repository][platform], you will
