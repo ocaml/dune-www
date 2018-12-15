@@ -9,6 +9,13 @@ layout: base
       {% for author in the_author %}| <span class="author">By: {{ author.name }}</span>{% endfor %}
     {% endif %}
   </div>
+
+  {% if page.picture %}
+  <div class="post-header-image">
+    <img src="{{ page.picture }}">
+  </div>
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>
