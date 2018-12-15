@@ -4,7 +4,6 @@ url: https://dune.build
 baseurl: /
 permalink: /:title
 
-host: igm-qws-u12712a
 port: 2020
 
 timezone: UTC
