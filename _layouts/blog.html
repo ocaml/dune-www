@@ -6,7 +6,9 @@ layout: base
     <div class="post-title"><h3>{{ page.title }}</h3></div>
     <span class="date">{{ page.date | date: '%b %d, %Y' }}</span>
     {% if page.author %}{% assign the_author = site.data.authors | where: 'id', page.author %}
-      {% for author in the_author %}| <span class="author">By: {{ author.name }}</span>{% endfor %}
+      {% for author in the_author %}| <span class="author">By:
+        <a href="https://twitter.com/{{ author.id }}">{{ author.name }}</a>
+      </span>{% endfor %}
     {% endif %}
   </div>
 
