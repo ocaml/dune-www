@@ -83,7 +83,7 @@ share results at any points chosen by the developer.
 It took some time to polish this model, develop it and and merge it
 into Dune. To validate our ideas, we discussed them with Andrey
 Mokhow, one of the authors of the famous [Build system a la carte
-paper](bs-a-la-carte). The initial implementation was written by Rudi
+paper][bs-a-la-carte]. The initial implementation was written by Rudi
 Horn and it is now fully merged into Dune.
 
 Let's see what this model is about.
