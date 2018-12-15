@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: A new general computation model for Dune
-author: Jeremie Dimino <jeremie@dimino.org>
+author: Jeremie Dimino
 tags: [ocaml, dune]
 ---
 
