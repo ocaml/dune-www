@@ -21,6 +21,15 @@ layout: base
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.discuss %}
+  <div class="post-comments">
+    Did you enjoy this article? You can let us know what you think on
+    <a href="{{ page.discuss }}">the corresponding thread on
+    discuss.ocaml.org</a>.
+  </div>
+  {% endif %}
+
   {% if page.tags.size > 0 %}
     <p>Tag{% if page.tags.size > 1 %}s{% endif %}: {{ page.tags | sort | join: ", " }}</p>
   {% endif %}
