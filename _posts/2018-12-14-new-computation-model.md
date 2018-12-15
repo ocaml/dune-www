@@ -5,6 +5,8 @@ author: diml
 tags: [ocaml, dune]
 ---
 
+![A new general computation model for Dune](/assets/dune-lambdas.png)
+
 Dune is fast. However, if you try to use Dune to develop in a big
 workspace such as the [OCaml platform repository][platform], you will
 notice that on every run, even if there is nothing to rebuild `dune
