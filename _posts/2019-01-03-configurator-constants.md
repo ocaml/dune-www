@@ -43,6 +43,10 @@ let () =
       | _ -> assert false )
 ```
 
+Note that just getting the constants could be done by parsing the header files
+themselves. But this also supports constant C expressions (such as `1 << 8`) and
+some C features such as `sizeof(int)`.
+
 So, how does it work?
 
 ## An almost correct solution
