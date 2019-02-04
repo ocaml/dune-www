@@ -13,10 +13,10 @@ exists and work as before however it prints a warning on every
 startup. Additionally, `jbuild` files are still accepted but both
 `jbuilder` and `dune` display a warning when encountering them. This
 behavior is now in the development version of dune and will be part of
-the upcoming 1.7 release.
+the upcoming 1.7.0 release.
 
 The support for the `jbuilder` binary and `jbuild` files will be
-discontinued in July this year. If you haven't switch your project to
+discontinued in July 2019. If you haven't switch your project to
 dune already, now is a good time to do it.
 
 To do that, you can either follow the [migration's guide][migration],
@@ -25,7 +25,7 @@ or use the newly added `dune upgrade` command that does it for you.
 Using the automatic upgrader
 ----------------------------
 
-The automatic upgrader is a new feature in dune 1.7. It automatically
+The automatic upgrader is a new feature in dune 1.7.0. It automatically
 convert your project from jbuilder to dune. Using it is as simple as
 running the following command at the root of your project:
 
@@ -74,7 +74,7 @@ Interaction with git
 The upgrader detects when it is running inside a git repository. In
 such cases, it issues git commands in such a way that running `git
 diff` just after `dune upgrade` will show you exactly what changed. If
-you do no like the result or notice a problem with the automatic
+you do not like the result or notice a problem with the automatic
 upgrade, running `git reset --hard` will undo all the edits and remove
 the newly created `dune` and `dune-project` files.
 
