@@ -41,6 +41,9 @@ Dune 2 to convince all users to switch to it entirely :)
 - dune 2.0.0 will require OCaml 4.08 to build, however it still be
   able to build projects using older compilers and will be installable
   in older opam switches
+- `dune.configurator` will now be released as `dune-configurator`,
+  however the name `dune.configurator` will still exist for backward
+  compatibility reason
 
 ## Dropping official support for Jbuilder
 
