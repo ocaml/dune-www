@@ -4,7 +4,7 @@ title: Dune 2.0.0 coming soon!
 author: dimenix
 tags: [ocaml, dune, jbuilder]
 picture: /assets/imgs/dune-2.0.0.png
-discuss: https://discuss.ocaml.org/t/dune-2-coming-soon
+discuss: https://discuss.ocaml.org/t/dune-2-0-0-coming-soon/4102
 ---
 
 The dune team is currently preparing the 2.0.0 release of Dune and we
