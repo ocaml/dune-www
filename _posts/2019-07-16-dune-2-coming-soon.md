@@ -85,7 +85,7 @@ still using `jbuilder` to release a new version using `dune` :)
 Upgrading from `jbuilder` to `dune` is extremely easy and automated as
 desribed in [this post](https://dune.build/blog/second-step-deprecation/).
 
-### Note for Mono-reposiotry users
+### Note for Mono-repository users
 
 While Dune will still be able to understand Jbuilder projects vendored
 inside Dune ones, it will now require the presence of a `dune-project`
