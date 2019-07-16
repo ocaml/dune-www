@@ -52,8 +52,8 @@ Dune 2 to convince all users to switch to the new dune language :)
 The main motivation for bumping the major version number is dropping
 the support for jbuilder, as announced in previous posts:
 
-- [https://discuss.ocaml.org/t/dune-1-0-0-is-coming-soon-what-about-jbuilder-projects/2237]()
-- [https://dune.build/blog/second-step-deprecation/]()
+- [](https://discuss.ocaml.org/t/dune-1-0-0-is-coming-soon-what-about-jbuilder-projects/2237)
+- [](https://dune.build/blog/second-step-deprecation/)
 
 This means that starting from Dune 2.0.0, the `dune` binary will no
 longer be guaranteed to understand projects with `jbuild` files. We
