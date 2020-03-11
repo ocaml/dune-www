@@ -31,9 +31,9 @@ Usage
 
     $ dune describe [--lang VERSION] [--format FORMAT] WHAT-TO-DESCRIBE
 
-Passing `--lang x.y` requests that behaves the same way as version
-`x.y` of the `dune` binary, not matter its current version. More
-precisely, the two promises we make are:
+Passing `--lang x.y` requests that dune behaves the same way as
+version `x.y` of the `dune` binary, not matter its current
+version. More precisely, the two promises we make are:
 
 - that `WHAT-TO-DESCRIBE` will be parsed in the same way as the
   version `x.y` of the `dune` binary
