@@ -32,12 +32,12 @@ Usage
     $ dune describe [--lang VERSION] [--format FORMAT] WHAT-TO-DESCRIBE
 
 Passing `--lang x.y` requests that dune behaves the same way as
-version `x.y` of the `dune` binary, not matter its current
+version `x.y` of the `dune` binary, no matter its current
 version. More precisely, the two promises we make are:
 
 - that `WHAT-TO-DESCRIBE` will be parsed in the same way as the
   version `x.y` of the `dune` binary
-- the output of this command is the same as the version `x.y` of the
+- the output of this command will be the same as the version `x.y` of the
   `dune` binary
 
 Right now, the only version you can pass to `--lang` is 0.1. The "0."
