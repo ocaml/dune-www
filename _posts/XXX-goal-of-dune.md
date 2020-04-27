@@ -7,9 +7,8 @@ picture: /assets/imgs/the-goal-of-dune.png
 discuss: https://discuss.ocaml.org/t/goal-of-dune
 ---
 
-I have noticed several times that people either don't know what is the
-goal of Dune of have wrong idea about it.  So to avoid ambiguities I
-wanted to say it out loud once and for all.
+I have been asked a few times what is our goal with Dune, so I wanted
+to answer this question once and for all.
 
 The goal of the Dune project is to provide the best possible build
 tool for the whole of the OCaml community, from individual developpers
@@ -20,18 +19,11 @@ communities such as Coq and possibly Reason/Bucklescript in the
 future.
 
 And to be completely honest, we haven't reached this goal yet. Dune is
-far from perfect and critically lacks in some areas in order to be
-such a tool, but we are slowly working towards that goal. Our is not
-to convince everybody to use Dune. While a unified community using
-Dune would open the door to exciting new possibilities such as faster
-builds, large scale refactoring or transparent cross-compilation, at
-the end of the day everyone makes their own choice and we are not here
-to try and convince people to switch to Dune.  What we can do however
-is make Dune as good of a tool as we can. That is what we have been
-doing from the start and that is what we will continue doing.
+far from perfect and lacks in some areas in order to be such a tool,
+but we are slowly working towards that goal.
 
-On a more practical level, there are a few boxes to check in order to
-reach our goal. There are in fact a ton details to sort out, but at a
+On a practical level, there are a few boxes to check in order to reach
+our goal. There are in fact a ton details to sort out, but at a
 high-level a tool that works for everyone in the OCaml community
 should at least:
 
