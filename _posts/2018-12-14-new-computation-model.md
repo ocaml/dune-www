@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: A new general computation model for Dune
-author: dimenix
+author: jeremiedimino
 tags: [ocaml, dune]
 picture: /assets/imgs/dune-lambdas.png
 discuss: https://discuss.ocaml.org/t/blog-post-a-new-general-computation-model-for-dune/3061

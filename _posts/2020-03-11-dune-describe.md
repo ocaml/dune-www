@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Introducing dune describe
-author: dimenix
+author: jeremiedimino
 tags: [ocaml, dune]
 picture: /assets/imgs/dune-describe.png
 discuss: https://discuss.ocaml.org/t/introducing-dune-describe

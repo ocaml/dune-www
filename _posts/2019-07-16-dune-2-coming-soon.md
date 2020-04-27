@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Dune 2.0.0 coming soon!
-author: dimenix
+author: jeremiedimino
 tags: [ocaml, dune, jbuilder]
 picture: /assets/imgs/dune-2.0.0.png
 discuss: https://discuss.ocaml.org/t/dune-2-0-0-coming-soon/4102

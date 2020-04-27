@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Second stage of the Jbuilder deprecation
-author: dimenix
+author: jeremiedimino
 tags: [ocaml, dune, jbuilder]
 picture: /assets/imgs/jbuilder-deprecated.png
 discuss: https://discuss.ocaml.org/t/second-stage-of-the-jbuilder-deprecation
