@@ -18,10 +18,8 @@ reasonably possible, help provide the same feature for friend
 communities such as Coq and possibly Reason/Bucklescript in the
 future.
 
-And to be completely honest, we haven't reached this goal yet. Dune is
-far from perfect and lacks in some areas in order to be such a tool,
-but we are slowly working towards that goal.
-
+We haven't reached this goal yet and Dune still lacks in some areas in
+order to be such a tool, but we are slowly working towards that goal.
 On a practical level, there are a few boxes to check in order to reach
 our goal. There are in fact a ton details to sort out, but at a
 high-level a tool that works for everyone in the OCaml community
