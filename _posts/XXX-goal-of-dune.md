@@ -7,9 +7,6 @@ picture: /assets/imgs/the-goal-of-dune.png
 discuss: https://discuss.ocaml.org/t/goal-of-dune
 ---
 
-I have been asked a few times what is our goal with Dune, so I wanted
-to answer this question once and for all.
-
 The goal of the Dune project is to provide the best possible build
 tool for the whole of the OCaml community, from individual developpers
 who work on open source projects during their free time all the way to
