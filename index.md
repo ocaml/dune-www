@@ -36,6 +36,9 @@ Lwt_main.run (Lwt_io.printf "Hello, world!\n")
 ```
 
 #### Your shell
+
+To compile into native machine code, put a .exe in front of the name (this does not have anything to do with Windows executables):
+
 ```
 $ dune build hello_world.exe
 $ ./_build/default/hello_world.exe
