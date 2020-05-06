@@ -42,7 +42,8 @@ $ dune build hello_world.exe
 $ ./_build/default/hello_world.exe
 Hello, world!
 ```
-*To compile into native native mode, we put a .exe in front of the name. This does not have anything to do with Windows executables. For bytecode compilation we put .bc in the end.*
+
+*Note: Dune uniformly uses the `.exe` extension to build native executables, even on Unix where programs don't usually have a `.exe` extension.*
 
 </div>
 </div>
