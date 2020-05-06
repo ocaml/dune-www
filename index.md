@@ -36,11 +36,15 @@ Lwt_main.run (Lwt_io.printf "Hello, world!\n")
 ```
 
 #### Your shell
+
 ```
 $ dune build hello_world.exe
 $ ./_build/default/hello_world.exe
 Hello, world!
 ```
+
+*Note: Dune uniformly uses the `.exe` extension to build native executables, even on Unix where programs don't usually have a `.exe` extension.*
+
 </div>
 </div>
 </div>
