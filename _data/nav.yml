@@ -1,4 +1,6 @@
 # Main nav links
+- title: Install
+  url: /install
 - title: Examples
   url: /examples
 - title: Documentation
