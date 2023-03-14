@@ -4,7 +4,7 @@ layout: base
 <div class="section">
 
 Dune is a build system for OCaml projects.
-Using it, you can build executables, libraries, run tests, and much more.
+You can use it to build executables, libraries, run tests, and much more.
 
 <div class="flex-grid">
 <div class="col text-container">
@@ -19,7 +19,7 @@ builds are way faster than traditional build systems.
 
 #### Dune is widely used
 Dune is used in both large projects and small libraries.
-About 40% of OPAM packages are built using Dune.
+About 80% of OPAM packages are built using Dune.
 </div>
 
 <div class="col code-container">
@@ -37,7 +37,7 @@ Lwt_main.run (Lwt_io.printf "Hello, world!\n")
 
 #### Your shell
 
-```
+```ShellSession
 $ dune build hello_world.exe
 $ ./_build/default/hello_world.exe
 Hello, world!
