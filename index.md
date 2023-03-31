@@ -38,7 +38,7 @@ Lwt_main.run (Lwt_io.printf "Hello, world!\n")
 #### Your shell
 
 ```
-$ dune exec -- hello_world.exe
+$ dune exec ./hello_world.exe
 Hello, world!
 ```
 
