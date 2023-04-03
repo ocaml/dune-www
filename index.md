@@ -23,7 +23,14 @@ About 40% of OPAM packages are built using Dune.
 </div>
 
 <div class="col code-container">
+#### `dune-project`
+ 
+```scheme
+(lang dune 3.6)
+```
+
 #### `dune`
+
 ```scheme
 (executable
  (name hello_world)
@@ -31,6 +38,7 @@ About 40% of OPAM packages are built using Dune.
 ```
 
 #### `hello_world.ml`
+
 ```ocaml
 Lwt_main.run (Lwt_io.printf "Hello, world!\n")
 ```
