@@ -25,8 +25,6 @@ About 40% of OPAM packages are built using Dune.
 <div class="col code-container">
 #### `dune-project`
  
-**Note:** need to upgrade dune _and_ language version to access newer features!
-
 ```scheme
 (lang dune 3.6)
 ```
