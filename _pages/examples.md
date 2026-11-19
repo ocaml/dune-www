@@ -6,7 +6,7 @@ tagline: Dune files you can use for common cases
 The following examples come from the [dune quickstart], where more explanations
 can be found.
 
-[dune quickstart]: https://dune.readthedocs.io/en/latest/quick-start.html
+[dune quickstart]: https://dune.readthedocs.io/en/stable/quick-start.html
 
 # Executable
 
