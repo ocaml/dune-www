@@ -54,6 +54,7 @@ For example:
 
 ```
 project
+├── dune-project
 ├── bin
 │   ├── dune
 │   └── mylib-demo.ml
